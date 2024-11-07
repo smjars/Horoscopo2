@@ -3,6 +3,7 @@ package com.example.horoscopo.activities
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -67,6 +68,10 @@ class DetailActivity : AppCompatActivity() {
         // Busco los componenetes visuales
         luckTextView = findViewById(R.id.luckTextView)
         symbolImageView = findViewById(R.id.symbolImageView)
+
+        // Aplico la animación
+        val growAnimation = AnimationUtils.loadAnimation(this, R.anim.grow_animation)
+        symbolImageView.startAnimation(growAnimation)
 
         symbolImageView.setImageResource(horoscope.image)
 
