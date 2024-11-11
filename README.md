@@ -7,7 +7,7 @@ Primer proyecto de prueba, en el que se crea una aplicación Android que muestra
 ## Imágenes
 
 ![App Screenshot Sings](images/zodiac_sings.png)
-![App Screenshot Sing](images/zodiac_sing.png)
+<img src="images/zodiac_sing.png" alt="App Screenshot Sing" width="300">
 
 ## Práctica:
 
